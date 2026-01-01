@@ -1,4 +1,4 @@
-## Programmers Web Full-Stack Today What I learn
+## Programmers Web Full-Stack Today I Learned
 
 ### 🛠️ Tech Stack
 | 분류 | 기술 스택 |

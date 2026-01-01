@@ -10,13 +10,10 @@
 ### 자주 쓰는 명령어
 
 - ls (list) -> 내 폴더 안에 있는 폴더 & 파일 내역을 보여줌
-  ![](https://velog.velcdn.com/images/leekh010502/post/f2ba681e-0df3-4e34-b94a-7d8dc7baa52f/image.png)
 
 - cd (change directory) -> 폴더 이동
-  ![](https://velog.velcdn.com/images/leekh010502/post/ca87d7f0-f71c-4109-90fd-b238ee3d2302/image.png)
 
 - mkdir 폴더명 (make directory) -> 폴더를 생성
-  ![](https://velog.velcdn.com/images/leekh010502/post/4dbb7676-c2a9-45ac-a459-44a1de868026/image.png)
 
 - init(Initialize, 초기화, 초기세팅) -> 코드 관리를 시작하는 명령어
 
@@ -24,15 +21,11 @@
 git init
 ```
 
-![](https://velog.velcdn.com/images/leekh010502/post/b2bcfad7-3ee6-48c4-9171-cc35ca33c34b/image.png)
-
 - status -> 저장 여부 확인하는 명령어
 
 ```
 git status
 ```
-
-![](https://velog.velcdn.com/images/leekh010502/post/d3eb5869-396c-4a78-9180-e623d2cdf7d1/image.png)
 
 - add & commit -> 코드를 저장하는 명령어
 
@@ -44,19 +37,11 @@ add -> 저장하기 전 저장할 파일 지정
 commit -> 실제로 저장
 ```
 
-![](https://velog.velcdn.com/images/leekh010502/post/e63daedd-0275-416e-8b08-38445913855d/image.png)
-
-![](https://velog.velcdn.com/images/leekh010502/post/aea5322c-52dd-4865-a903-7e790344258c/image.png)
-
-![](https://velog.velcdn.com/images/leekh010502/post/39e0104c-8f33-402f-8dee-299508d9ea52/image.png)
-
 - log -> 저장 내역을 확인하는 명령어
 
 ```
 git log
 ```
-
-![](https://velog.velcdn.com/images/leekh010502/post/6e560034-eb38-46d5-bdfb-6ab24a2bcd72/image.png)
 
 #### 오늘의 배운 점
 

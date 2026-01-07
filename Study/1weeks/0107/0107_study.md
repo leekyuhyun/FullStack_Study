@@ -31,7 +31,7 @@
     - **Power-Ups**
     	- 캘린더, 슬랙(Slack), 구글 드라이브 등 외부 앱을 연동해 기능 확장 가능
     
-    ![](https://velog.velcdn.com/images/leekh010502/post/08bdf2b2-3947-4bd4-957d-55d86694a868/image.png)
+        ![](https://velog.velcdn.com/images/leekh010502/post/08bdf2b2-3947-4bd4-957d-55d86694a868/image.png)
 
 ### Jira
 - Jira는 단순히 할 일을 적는 곳이 아니라, 복잡한 소프트웨어 개발 생명주기를 관리하기 위한 도구
@@ -43,7 +43,7 @@
     - **애자일 최적화** 
        - 스크럼(Scrum) 보드와 칸반(Kanban) 보드를 모두 지원하며, 스프린트 설정 및 관리에 최적화되어 있음
 
-    ![](https://velog.velcdn.com/images/leekh010502/post/d9e415dd-a27d-4d10-9788-6a307fe1ded5/image.png)
+        ![](https://velog.velcdn.com/images/leekh010502/post/d9e415dd-a27d-4d10-9788-6a307fe1ded5/image.png)
 
 ### Notion
 - Notion은 '문서 작성'을 기반으로 데이터베이스 기능을 결합한 툴로, 팀의 모든 지식을 한곳에 모으는 '위키(Wiki)' 역할을 수행
@@ -58,7 +58,7 @@
     - **템플릿 공유**
     	- 팀 내에서 반복되는 양식을 템플릿화하여 업무 효율을 높임
     
-    ![](https://velog.velcdn.com/images/leekh010502/post/dcfdb314-8615-4918-b651-5518bbb7dcc6/image.png)
+        ![](https://velog.velcdn.com/images/leekh010502/post/dcfdb314-8615-4918-b651-5518bbb7dcc6/image.png)
 
 ### 협업 Tool 공통점 / 차이점
 - **공통점**
@@ -100,7 +100,7 @@
             - 하나의 큰 덩어리 업무를 실행 가능한 아주 작은 단위들로 쪼개놓은 하위 할 일 리스트
 
         - 효과
-            - 업무의 구체적인 실행 계획을 세울 수 있고, 진척도를 더 세밀하게 파악할 수 있습니다.
+            - 업무의 구체적인 실행 계획을 세울 수 있고, 진척도를 더 세밀하게 파악할 수 있음
         
 - 차이점 
     - **Trello**

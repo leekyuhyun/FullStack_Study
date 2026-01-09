@@ -14,21 +14,25 @@
                 width: 100px;
                 height: 50px;
             }
-
-            #reset-btn {
-                font-size: 20px;
-                width: 100px;
-                height: 50px;
-            }
         </style>
     </head>
     <body>
         <h2>Login</h2>
         <form>
-            ID : <input type="text" style="font-size:1rem" placeholder="아이디를 입력하세요"> <br>
+            ID : <input  id ="txt_id" type="text" style="font-size:1rem" placeholder="아이디를 입력하세요"> <br>
             PW : <input type="password" placeholder="비밀번호를 입력하세요"> <br>
-            <input type="button" value="Login" class="login-btn">
-            <input id ="reset-btn" type="reset" value="Reset">
+            <input type="button" value="Login" class="login-btn" onclick="myfn()">
         </form>
+
+        <script>
+            function myfn() {
+                let user_id = document.getElementById("txt_id").value;
+                if (user_id == "") {
+                    alert("아이디를 입력하세요");
+                } else {
+                    alert("안녕하세요 " + user_id + " 님");
+                }
+            }
+        </script>
     </body>
 </html>

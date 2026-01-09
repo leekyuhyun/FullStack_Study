@@ -69,7 +69,169 @@ fullstack_study/
 </details>
 
 <details>
-<summary><b>📅 Week 2 | 다음 주차 주제 (예정)</b></summary>
+<summary><b>📅 Week 2 | 프로젝트 : 데이터 기반 웹서비스의 개발자 포트폴리오 제작 & 백엔드 기초 : Node.js + Express 기본 (예정)</b></summary>
+<div markdown="1">
+
+- 학습 후 내용을 업데이트할 예정입니다.
+
+</div>
+</details>
+
+<details>
+<summary><b>📅 Week 3 | 백엔드 기초 : Node.js + Express 기본 (예정)</b></summary>
+<div markdown="1">
+
+- 학습 후 내용을 업데이트할 예정입니다.
+
+</div>
+</details>
+
+<details>
+<summary><b>📅 Week 4 | 백엔드 기초 : Node.js + Express 기본 & 백엔드 심화 : 인증과 비동기처리 (예정)</b></summary>
+<div markdown="1">
+
+- 학습 후 내용을 업데이트할 예정입니다.
+
+</div>
+</details>
+
+<details>
+<summary><b>📅 Week 5 | 백엔드 심화 : 인증과 비동기처리 & 프로젝트 : Node.js 기반의 REST API 구현</b></summary>
+<div markdown="1">
+
+- 학습 후 내용을 업데이트할 예정입니다.
+
+</div>
+</details>
+
+<details>
+<summary><b>📅 Week 6 | 스프린트 2 프로젝트 : Node.js 기반의 REST API 구현 (예정)</b></summary>
+<div markdown="1">
+
+- 학습 후 내용을 업데이트할 예정입니다.
+
+</div>
+</details>
+
+<details>
+<summary><b>📅 Week 7 | 프로젝트 : Node.js 기반의 REST API 구현 (예정)</b></summary>
+<div markdown="1">
+
+- 학습 후 내용을 업데이트할 예정입니다.
+
+</div>
+</details>
+
+<details>
+<summary><b>📅 Week 8 | 프로젝트 : Node.js 기반의 REST API 구현 (예정)</b></summary>
+<div markdown="1">
+
+- 학습 후 내용을 업데이트할 예정입니다.
+
+</div>
+</details>
+
+<details>
+<summary><b>📅 Week 9 | 프론트엔드 기초 : React + TypeScript (예정)</b></summary>
+<div markdown="1">
+
+- 학습 후 내용을 업데이트할 예정입니다.
+
+</div>
+</details>
+
+<details>
+<summary><b>📅 Week 10 | 프론트엔드 기초 : React + TypeScript (예정)</b></summary>
+<div markdown="1">
+
+- 학습 후 내용을 업데이트할 예정입니다.
+
+</div>
+</details>
+
+<details>
+<summary><b>📅 Week 11 | 프론트엔드 심화 : 상태 관리와 비동기 처리 (예정)</b></summary>
+<div markdown="1">
+
+- 학습 후 내용을 업데이트할 예정입니다.
+
+</div>
+</details>
+
+<details>
+<summary><b>📅 Week 12 | 프로젝트 : React(TypeScript) 기반의 동적 UI 개발 (예정)</b></summary>
+<div markdown="1">
+
+- 학습 후 내용을 업데이트할 예정입니다.
+
+</div>
+</details>
+
+<details>
+<summary><b>📅 Week 13 | 프로젝트 : React(TypeScript) 기반의 동적 UI 개발 (예정)</b></summary>
+<div markdown="1">
+
+- 학습 후 내용을 업데이트할 예정입니다.
+
+</div>
+</details>
+
+<details>
+<summary><b>📅 Week 14 | Code contributor : 오픈소스 프로젝트 활용해보기 (예정)</b></summary>
+<div markdown="1">
+
+- 학습 후 내용을 업데이트할 예정입니다.
+
+</div>
+</details>
+
+<details>
+<summary><b>📅 Week 15 | 웹 개발 파이프라인 구축 (예정)</b></summary>
+<div markdown="1">
+
+- 학습 후 내용을 업데이트할 예정입니다.
+
+</div>
+</details>
+
+<details>
+<summary><b>📅 Week 16 | 프로젝트 : 오픈소스 기반의 웹 파이프라인 구축 (예정)</b></summary>
+<div markdown="1">
+
+- 학습 후 내용을 업데이트할 예정입니다.
+
+</div>
+</details>
+
+<details>
+<summary><b>📅 Week 17 | 프로젝트 : 오픈소스 기반의 웹 파이프라인 구축 (예정)</b></summary>
+<div markdown="1">
+
+- 학습 후 내용을 업데이트할 예정입니다.
+
+</div>
+</details>
+
+<details>
+<summary><b>📅 Week 18 | 프로젝트 : 오픈소스 기반의 웹 파이프라인 구축 (예정)</b></summary>
+<div markdown="1">
+
+- 학습 후 내용을 업데이트할 예정입니다.
+
+</div>
+</details>
+
+<details>
+<summary><b>📅 Week 19 | 실무에 쓰이는 CS 지식 기초 (예정)</b></summary>
+<div markdown="1">
+
+- 학습 후 내용을 업데이트할 예정입니다.
+
+</div>
+</details>
+
+<details>
+<summary><b>📅 Week 20 | 프로젝트 : 클라우드 기반의 웹 서비스 기획부터 운영까지 (예정)</b></summary>
 <div markdown="1">
 
 - 학습 후 내용을 업데이트할 예정입니다.

@@ -17,7 +17,7 @@ function main(response) {
 }
 
 function redRacket(response) {
-    fs.readFile('./img/redRacket.png', function(err, data) {
+    fs.readFile('../img/redRacket.png', function(err, data) {
         response.writeHead(200, {'Content-Type' : 'text/html'});
         response.write(data);
         response.end(); 
@@ -25,7 +25,7 @@ function redRacket(response) {
 }
 
 function blueRacket(response) {
-    fs.readFile('./img/blueRacket.png', function(err, data) {
+    fs.readFile('../img/blueRacket.png', function(err, data) {
         response.writeHead(200, {'Content-Type' : 'text/html'});
         response.write(data);
         response.end(); 
@@ -33,7 +33,7 @@ function blueRacket(response) {
 }
 
 function blackRacket(response) {
-    fs.readFile('./img/blackRacket.png', function(err, data) {
+    fs.readFile('../img/blackRacket.png', function(err, data) {
         response.writeHead(200, {'Content-Type' : 'text/html'});
         response.write(data);
         response.end(); 

@@ -8,7 +8,29 @@ let id = 1;
 
 // 1. 로그인
 app.post("/login", (req, res) => {
-  //다음 시간에 구현 예정
+  const { user_id, pwd } = req.body;
+  let loginUser = null;
+
+  db.forEach((user) => {
+    if (user.user_id === user_id) {
+      loginUser = user;
+    }
+  });
+  if (loginUser) {
+    if (loginUser.pwd == pwd) {
+      res.status(200).json({
+        message: `${loginUser.name}님 반갑습니다.`,
+      });
+    } else {
+      res.status(400).json({
+        message: "비밀번호를 다시 확인해보세요.",
+      });
+    }
+  } else {
+    res.status(400).json({
+      message: "아이디를 다시 확인해보세요.",
+    });
+  }
 });
 
 // 2. 회원가입

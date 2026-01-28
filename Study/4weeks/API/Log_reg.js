@@ -9,6 +9,27 @@ let id = 1;
 // 1. 로그인
 app.post("/login", (req, res) => {
   const { user_id, pwd } = req.body;
+
+  // 필드가 비었는지 확인
+  if (isEmpty(req.body)) {
+    return res.status(400).json({
+      message: "입력된 정보가 없습니다. 아이디와 비밀번호를 입력해주세요.",
+    });
+  }
+
+  if (!user_id) {
+    return res.status(400).json({
+      message: "아이디를 입력해주세요.",
+    });
+  }
+
+  if (!pwd) {
+    return res.status(400).json({
+      message: "비밀번호를 입력해주세요.",
+    });
+  }
+
+  // 아이디, 비밀번호가 일치한지 확인
   let loginUser = null;
 
   db.forEach((user) => {
@@ -32,6 +53,15 @@ app.post("/login", (req, res) => {
     });
   }
 });
+
+// 1.1 Object.keys() 사용을 위해 isEmpty 함수 추가
+function isEmpty(obj) {
+  // 객체 안에 이름표(Key)가 하나도 없으면 true(비어있음)를 반환
+  if (Object.keys(obj).length === 0) {
+    return true;
+  }
+  return false;
+}
 
 // 2. 회원가입
 app.post("/register", (req, res) => {

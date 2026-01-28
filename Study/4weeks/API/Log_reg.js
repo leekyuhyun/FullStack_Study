@@ -8,14 +8,14 @@ let id = 1;
 
 // 1. 로그인
 app.post("/login", (req, res) => {
-  const { user_id, pwd } = req.body;
-
   // 필드가 비었는지 확인
   if (isEmpty(req.body)) {
     return res.status(400).json({
       message: "입력된 정보가 없습니다. 아이디와 비밀번호를 입력해주세요.",
     });
   }
+
+  const { user_id, pwd } = req.body;
 
   if (!user_id) {
     return res.status(400).json({

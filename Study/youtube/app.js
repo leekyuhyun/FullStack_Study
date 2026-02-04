@@ -2,8 +2,8 @@ const express = require("express");
 const app = express();
 app.use(express.json());
 
-const userRouter = require("../../routes/User");
-const channelRouter = require("../../routes/Channel");
+const userRouter = require("./routes/User");
+const channelRouter = require("./routes/Channel");
 
 app.use("/", userRouter);
 app.use("/", channelRouter);

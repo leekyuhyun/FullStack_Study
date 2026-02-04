@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const conn = require("../5weeks/0203/db-connect");
+const conn = require("../db-connect");
 
 router.use(express.json());
 

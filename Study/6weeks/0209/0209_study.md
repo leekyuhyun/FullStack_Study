@@ -278,13 +278,40 @@
 
 ## 좋아요 API
 
-### 1. 좋아요
+### 1. 좋아요 추가
 
 <table>
   <tbody>
     <tr>
       <td style="background-color: #f1f1f1; font-weight: bold; width: 30%;">Method</td>
-      <td>PUT</td>
+      <td>POST</td>
+    </tr>
+    <tr>
+      <td style="background-color: #f1f1f1; font-weight: bold;">URI</td>
+      <td>/likes/{bookId}</td>
+    </tr>
+    <tr>
+      <td style="background-color: #f1f1f1; font-weight: bold;">HTTP status code</td>
+      <td>성공 200</td>
+    </tr>
+    <tr>
+      <td style="background-color: #f1f1f1; font-weight: bold;">Request Body</td>
+      <td>x</td>
+    </tr>
+    <tr>
+      <td style="background-color: #f1f1f1; font-weight: bold;">Response Body</td>
+      <td>x</td>
+    </tr>
+  </tbody>
+</table>
+
+### 2. 좋아요 취소
+
+<table>
+  <tbody>
+    <tr>
+      <td style="background-color: #f1f1f1; font-weight: bold; width: 30%;">Method</td>
+      <td>DELETE</td>
     </tr>
     <tr>
       <td style="background-color: #f1f1f1; font-weight: bold;">URI</td>
@@ -412,9 +439,11 @@
   </tbody>
 </table>
 
-## 주문 API
+---
 
-### 1. 장바구니에서 선택한 상품 목록 조회
+#### 02/10 수정 및 추가
+
+### 4. 장바구니에서 선택한 주문 예상 상품 목록 조회
 
 <table>
   <tbody>
@@ -432,12 +461,14 @@
     </tr>
     <tr>
       <td style="background-color: #f1f1f1; font-weight: bold;">Request Body</td>
-      <td>x</td>
+      <td>
+        <pre><code>{ cart_item_id,  cart_item_id, ...}</code></pre>
+      </td>
     </tr>
     <tr>
       <td style="background-color: #f1f1f1; font-weight: bold;">Response Body</td>
       <td>
-        <pre><code>[
+        <pre><code>
   {
     "cartItemId": "장바구니 도서 id",
     "bookId": "도서 id",
@@ -455,6 +486,142 @@
     "price": "가격"
   }
 ]</code></pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## 주문 API
+
+### 1. 주문하기
+
+<table>
+  <tbody>
+    <tr>
+      <td style="background-color: #f1f1f1; font-weight: bold; width: 30%;">Method</td>
+      <td>POST</td>
+    </tr>
+    <tr>
+      <td style="background-color: #f1f1f1; font-weight: bold;">URI</td>
+      <td>/orders</td>
+    </tr>
+    <tr>
+      <td style="background-color: #f1f1f1; font-weight: bold;">HTTP status code</td>
+      <td>성공 200</td>
+    </tr>
+    <tr>
+      <td style="background-color: #f1f1f1; font-weight: bold;">Request Body</td>
+      <td>
+        <pre><code>{
+    items : [ {
+         bookId : 도서 Id,
+         count : 수량
+     }
+      {
+         bookId : 도서 Id,
+         count : 수량
+     }
+     ],
+    delivery : {
+        adress : “주소”,
+        receiver : “이름”,
+        contact : “010-xxxx-xxxx”
+    }
+    totalPrice : 총 금액
+}
+       </code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color: #f1f1f1; font-weight: bold;">Response Body</td>
+      <td>x</td>
+    </tr>
+  </tbody>
+</table>
+
+### 2. 주문 목록(내역) 조회
+
+<table>
+  <tbody>
+    <tr>
+      <td style="background-color: #f1f1f1; font-weight: bold; width: 30%;">Method</td>
+      <td>GET</td>
+    </tr>
+    <tr>
+      <td style="background-color: #f1f1f1; font-weight: bold;">URI</td>
+      <td>/orders</td>
+    </tr>
+    <tr>
+      <td style="background-color: #f1f1f1; font-weight: bold;">HTTP status code</td>
+      <td>성공 200</td>
+    </tr>
+    <tr>
+      <td style="background-color: #f1f1f1; font-weight: bold;">Request Body</td>
+      <td>x</td>
+    </tr>
+    <tr>
+      <td style="background-color: #f1f1f1; font-weight: bold;">Response Body</td>
+      <td>
+        <pre><code>[
+    {
+          created_at : ‘주문일자’,
+          delivery : {
+                  address : ‘주소’,
+                  receiver : ‘이름’,
+                  contact : ‘전화번호’
+           }
+           bookTitle: “대표 책 제목”,
+           totalPrice : 결제 금액,
+           totalCount : 총 수량
+     }
+]
+        </code></pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### 3. 주문 상세 조회
+
+<table>
+  <tbody>
+    <tr>
+      <td style="background-color: #f1f1f1; font-weight: bold; width: 30%;">Method</td>
+      <td>GET</td>
+    </tr>
+    <tr>
+      <td style="background-color: #f1f1f1; font-weight: bold;">URI</td>
+      <td>/orders/{order_id}</td>
+    </tr>
+    <tr>
+      <td style="background-color: #f1f1f1; font-weight: bold;">HTTP status code</td>
+      <td>성공 200</td>
+    </tr>
+    <tr>
+      <td style="background-color: #f1f1f1; font-weight: bold;">Request Body</td>
+      <td>x</td>
+    </tr>
+    <tr>
+      <td style="background-color: #f1f1f1; font-weight: bold;">Response Body</td>
+      <td>
+        <pre><code>[
+    {
+         bookId : 도서 Id,
+         bookTitle : ‘도서 제목’,
+         author : ‘작가명’,
+         price : 가격,
+         count : 수량
+     }
+    {
+         bookId : 도서 Id,
+         bookTitle : ‘도서 제목’,
+         author : ‘작가명’,
+         price : 가격,
+         count : 수량
+     }
+    …..
+]
+        </code></pre>
       </td>
     </tr>
   </tbody>
